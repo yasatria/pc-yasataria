@@ -97,19 +97,23 @@
 
     <TextView
         android:id="@+id/text_palette1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="420dp"
         android:text="palette 1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginBottom="420dp"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/text_palette2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
         android:text="palette 2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -119,8 +123,10 @@
 
     <TextView
         android:id="@+id/text_palette3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
         android:text="palette 3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -130,8 +136,10 @@
 
     <TextView
         android:id="@+id/text_palette4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
         android:text="palette 4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -141,8 +149,10 @@
 
     <TextView
         android:id="@+id/text_palette5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
         android:text="palette 5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
