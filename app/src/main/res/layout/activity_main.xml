@@ -35,6 +35,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="Color Pick by satria"/>
+        android:text="App by satria"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

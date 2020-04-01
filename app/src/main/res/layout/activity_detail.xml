@@ -10,11 +10,14 @@
         android:id="@+id/img_color"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/sym_def_app_icon"
-        app:layout_constraintTop_toBottomOf="@id/guideline3"
+        android:src="@drawable/palette1"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginRight="270dp"
+        app:layout_constraintRight_toLeftOf="@id/guideline_vertikal"
+        app:layout_constraintTop_toBottomOf="@id/guideline3"
+        app:layout_constraintBottom_toTopOf="@id/guideline4"
+        android:layout_marginRight="300dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="200dp"
         />
 
     <TextView
@@ -25,7 +28,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="@id/guideline_vertikal"
         app:layout_constraintTop_toBottomOf="@id/guideline3"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="50dp"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
