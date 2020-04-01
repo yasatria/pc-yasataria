@@ -18,7 +18,16 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
         getData();
+    }
+
+    private void prosesRecyclerViewAdapter(){
+        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        DetailAdapter adapter = new DetailAdapter(gambarWarna, inspirasiWarna, hexWarna,this);
+
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
     }
 
@@ -26,23 +35,18 @@ public class MenuActivity extends AppCompatActivity {
 
         gambarWarna.add("@andoid:drawable/red.jpg");
         inspirasiWarna.add("inspiration 1");
+        hexWarna.add("#FFFFFF");
 
 
         gambarWarna.add("@andoid:drawable/red.jpg");
         inspirasiWarna.add("inspiration 2");
+        hexWarna.add("#FFFFFF");
 
 
         gambarWarna.add("@andoid:drawable/red.jpg");
         inspirasiWarna.add("inspiration 3");
+        hexWarna.add("#FFFFFF");
 
-    }
-
-    private void prosesRecyclerViewAdapter(){
-        RecyclerView recyclerView = findViewById(R.id.rv_ins);
-        DetailAdapter adapter = new DetailAdapter(gambarWarna, inspirasiWarna, hexWarna,this);
-
-        recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
+        prosesRecyclerViewAdapter();
     }
 }
