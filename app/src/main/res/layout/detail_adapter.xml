@@ -8,7 +8,7 @@
     android:layout_margin="8dp"
     app:cardBackgroundColor="@color/cardview_light_background"
     app:cardElevation="4dp"
-    android:id="@+id/parent_layout">
+    android:id="@+id/adapter_layout">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
@@ -19,14 +19,14 @@
             android:id="@+id/image_logo"
             android:layout_width="210dp"
             android:layout_height="120dp"
-            android:src="@drawable/palette2"
+            android:src="@drawable/palette1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/text_name"
+            android:id="@+id/text_ins"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
