@@ -10,13 +10,15 @@
 
     <ImageView
         android:id="@+id/buble"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="500dp"
+        android:layout_height="550dp"
         android:src="@drawable/buble_text"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -25,11 +27,11 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="88dp" />
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/img_palette1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/profile_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/palette1"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginBottom="420dp"
@@ -39,11 +41,11 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/img_palette2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/profile_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/palette7"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginBottom="220dp"
@@ -53,11 +55,11 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/img_palette3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/profile_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/palette4"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginBottom="20dp"
@@ -67,11 +69,11 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/img_palette4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/profile_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/palette6"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="180dp"
@@ -81,11 +83,11 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/img_palette5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/profile_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/palette8"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="380dp"
@@ -100,7 +102,7 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="52dp"
+        android:layout_height="46dp"
         android:layout_marginBottom="420dp"
         android:text="palette 1"
         android:textColor="#8969FB"
@@ -114,7 +116,7 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="52dp"
+        android:layout_height="46dp"
         android:text="palette 2"
         android:textColor="#8969FB"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -128,7 +130,7 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="52dp"
+        android:layout_height="46dp"
         android:text="palette 3"
         android:textColor="#8969FB"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -142,7 +144,7 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="52dp"
+        android:layout_height="46dp"
         android:text="palette 4"
         android:textColor="#8969FB"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -156,7 +158,7 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="52dp"
+        android:layout_height="46dp"
         android:text="palette 5"
         android:textColor="#8969FB"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -174,7 +176,7 @@
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="420dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="30dp"
         android:text="use"
         android:textSize="12dp"
         android:textColor="#8969FB"
@@ -190,7 +192,7 @@
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="220dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="30dp"
         android:text="use"
         android:textSize="12dp"
         android:textColor="#8969FB"
@@ -206,7 +208,7 @@
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="20dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="30dp"
         android:text="use"
         android:textSize="12dp"
         android:textColor="#8969FB"
@@ -222,7 +224,7 @@
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="180dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="30dp"
         android:text="use"
         android:textSize="12dp"
         android:textColor="#8969FB"
@@ -238,7 +240,7 @@
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="380dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="30dp"
         android:text="use"
         android:textSize="12dp"
         android:textColor="#8969FB"
