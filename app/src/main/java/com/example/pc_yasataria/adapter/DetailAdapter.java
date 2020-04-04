@@ -43,36 +43,7 @@ public class DetailAdapter extends RecyclerView.Adapter<DetailAdapter.ViewHolder
         final ItemsModel item = items.get(position);
         holder.text_ins.setText(item.getInspirasi());
         Picasso.get().load(item.getGambar()).into(holder.img_color);
-//        holder.adapter_layout.setOnClickListener(new View.OnClickListener(){
-//
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(context, DetailActivity.class);
-//                intent.putExtra("gambar_warna",item.getGambar());
-//                intent.putExtra("hex_warna",item.getHex());
-//                context.startActivity(intent);
-//            }
-//        });
 
-//        Glide.with(context).asBitmap().load(gambarWarna.get(position)).into(holder.img_color);
-//       holder.text_ins.setText(inspirasiWarna.get(position));
-//
-//        holder.adapter_layout.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View v) {
-//                //menampilkan tulisan
-//                //Toast.makeText(context, namaMakanan.get(position), Toast.LENGTH_LONG).show();
-//
-//                Intent intent = new Intent(context, DetailActivity.class);
-//
-//                intent.putExtra("gambar warna", gambarWarna.get(position));
-//                intent.putExtra("hex warna", hexWarna.get(position));
-//
-//                context.startActivity(intent);
-//
-//            }
-//        });
 
     }
 

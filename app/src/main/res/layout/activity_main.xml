@@ -13,6 +13,43 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="365dp" />
 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:src="@drawable/pclogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/guideline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/palette_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Color"
+        android:textStyle="bold"
+        android:textColor="#8969FB"
+        android:textSize="18dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/guideline"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.0.0"
+        android:textColor="#8969FB"
+        android:textSize="18dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/guideline"
+        android:layout_marginTop="180dp"/>
+
     <Button
         android:id="@+id/button"
         android:layout_width="60dp"
