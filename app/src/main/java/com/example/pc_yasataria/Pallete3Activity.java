@@ -12,20 +12,20 @@ import com.example.pc_yasataria.model.ItemsModel;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pallete1Activity extends AppCompatActivity {
+public class Pallete3Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pallete1);
+        setContentView(R.layout.activity_pallete3);
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
 
         List<ItemsModel> model = new ArrayList<>();
-        model.add(new ItemsModel("https://www.colorhexa.com/283149.png","#283149","#FFFFFF"));
-        model.add(new ItemsModel("https://www.colorhexa.com/404b69.png","#404B69","#FFFFFF"));
-        model.add(new ItemsModel("https://www.colorhexa.com/f73859.png","#F73859","#FFFFFF"));
-        model.add(new ItemsModel("https://www.colorhexa.com/dbedf3.png","#DBEDF3","#FFFFFF"));
+        model.add(new ItemsModel("https://www.colorhexa.com/512c96.png","#512C96","#FFFFFF"));
+        model.add(new ItemsModel("https://www.colorhexa.com/3c6f9c.png","#3C6F9C","#FFFFFF"));
+        model.add(new ItemsModel("https://www.colorhexa.com/dd6892.png","#DD6892","#FFFFFF"));
+        model.add(new ItemsModel("https://www.colorhexa.com/f9c6ba.png","#F9C6BA","#FFFFFF"));
 
 
         DetailAdapter adapter = new DetailAdapter(model,this);

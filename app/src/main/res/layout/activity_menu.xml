@@ -25,7 +25,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="88dp" />
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:id="@+id/img_palette1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:id="@+id/img_palette2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:id="@+id/img_palette3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:id="@+id/img_palette4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:id="@+id/img_palette5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -100,9 +100,10 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="32dp"
+        android:layout_height="52dp"
         android:layout_marginBottom="420dp"
         android:text="palette 1"
+        android:textColor="#8969FB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -113,8 +114,9 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="32dp"
+        android:layout_height="52dp"
         android:text="palette 2"
+        android:textColor="#8969FB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -126,8 +128,9 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="32dp"
+        android:layout_height="52dp"
         android:text="palette 3"
+        android:textColor="#8969FB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -139,8 +142,9 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="32dp"
+        android:layout_height="52dp"
         android:text="palette 4"
+        android:textColor="#8969FB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -152,8 +156,9 @@
         android:background="@drawable/shape"
         android:gravity="center"
         android:layout_width="140dp"
-        android:layout_height="32dp"
+        android:layout_height="52dp"
         android:text="palette 5"
+        android:textColor="#8969FB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -162,8 +167,8 @@
 
     <Button
         android:id="@+id/bt_palette1"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
@@ -172,14 +177,14 @@
         android:layout_marginRight="40dp"
         android:text="use"
         android:textSize="12dp"
-        android:textColor="#ffffff"
-        android:background="@drawable/button1"
+        android:textColor="#8969FB"
+        android:background="@drawable/buttonuse"
         android:onClick="handlePallete1"/>
 
     <Button
         android:id="@+id/bt_palette2"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
@@ -188,13 +193,14 @@
         android:layout_marginRight="40dp"
         android:text="use"
         android:textSize="12dp"
-        android:textColor="#ffffff"
-        android:background="@drawable/button2"/>
+        android:textColor="#8969FB"
+        android:background="@drawable/buttonuse"
+        android:onClick="handlePallete2"/>
 
     <Button
         android:id="@+id/bt_palette3"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
@@ -203,13 +209,14 @@
         android:layout_marginRight="40dp"
         android:text="use"
         android:textSize="12dp"
-        android:textColor="#ffffff"
-        android:background="@drawable/button3"/>
+        android:textColor="#8969FB"
+        android:background="@drawable/buttonuse"
+        android:onClick="handlePallete3"/>
 
     <Button
         android:id="@+id/bt_palette4"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
@@ -218,13 +225,14 @@
         android:layout_marginRight="40dp"
         android:text="use"
         android:textSize="12dp"
-        android:textColor="#ffffff"
-        android:background="@drawable/button4"/>
+        android:textColor="#8969FB"
+        android:background="@drawable/buttonuse"
+        android:onClick="handlePallete4"/>
 
     <Button
         android:id="@+id/bt_palette5"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/text_palette1"
@@ -233,8 +241,9 @@
         android:layout_marginRight="40dp"
         android:text="use"
         android:textSize="12dp"
-        android:textColor="#ffffff"
-        android:background="@drawable/button5"/>
+        android:textColor="#8969FB"
+        android:background="@drawable/buttonuse"
+        android:onClick="handlePallete5"/>
 
 
 

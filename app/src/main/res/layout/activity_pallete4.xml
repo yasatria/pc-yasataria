@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pallete2Activity">
+    tools:context=".Pallete4Activity">
 
     <TextView
         android:id="@+id/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pallete 2"
+        android:text="Pallete 4"
         android:textColor="#8969FB"
         android:textSize="30sp"
         android:textStyle="bold"
