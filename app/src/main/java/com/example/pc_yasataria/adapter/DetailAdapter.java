@@ -42,6 +42,7 @@ public class DetailAdapter extends RecyclerView.Adapter<DetailAdapter.ViewHolder
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
         final ItemsModel item = items.get(position);
         holder.text_ins.setText(item.getInspirasi());
+        Picasso.get().load(item.getGambar()).into(holder.img_color);
 //        holder.adapter_layout.setOnClickListener(new View.OnClickListener(){
 //
 //            @Override
@@ -52,7 +53,7 @@ public class DetailAdapter extends RecyclerView.Adapter<DetailAdapter.ViewHolder
 //                context.startActivity(intent);
 //            }
 //        });
-        Picasso.get().load(item.getGambar()).into(holder.img_color);
+
 //        Glide.with(context).asBitmap().load(gambarWarna.get(position)).into(holder.img_color);
 //       holder.text_ins.setText(inspirasiWarna.get(position));
 //

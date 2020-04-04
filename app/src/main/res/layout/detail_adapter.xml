@@ -3,45 +3,43 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adapter_layout"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
-    android:layout_margin="8dp"
-    app:cardBackgroundColor="@color/cardview_light_background"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
     app:cardElevation="4dp"
-    android:id="@+id/adapter_layout">
+    app:cardUseCompatPadding="true"
+    >
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/linearLayout"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        >
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/image_logo"
-            android:layout_width="210dp"
-            android:layout_height="120dp"
-            android:src="@drawable/palette1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/img_color"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            tools:srcCompat="@tools:sample/avatars"
+            />
 
         <TextView
             android:id="@+id/text_ins"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:background="#90FFFFFF"
-            android:text="HEX COLOR"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="24sp"
+            tools:text="Club Name"
+            />
+    </LinearLayout>
 </androidx.cardview.widget.CardView>
-
-
     <!--<?xml version="1.0" encoding="utf-8"?>-->
     <!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
     <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->

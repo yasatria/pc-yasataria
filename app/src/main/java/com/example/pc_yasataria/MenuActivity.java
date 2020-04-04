@@ -18,7 +18,6 @@ import java.util.List;
 public class MenuActivity extends AppCompatActivity {
 
 
-
 //    private ArrayList<String> gambarWarna = new ArrayList<>();
 //    private ArrayList<String> inspirasiWarna = new ArrayList<>();
 //    private ArrayList<String> hexWarna = new ArrayList<>();
@@ -50,8 +49,8 @@ public class MenuActivity extends AppCompatActivity {
 //        recyclerView.setLayoutManager(layoutManager);
     }
 
-    public void handlepalette1(View view) {
-        Intent intent = new Intent(this,Palette1Activity.class);
+    public void handlePallete1(View view) {
+        Intent intent = new Intent(this,Pallete1Activity.class);
         startActivity(intent);
     }
 

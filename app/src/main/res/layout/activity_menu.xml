@@ -8,19 +8,6 @@
     android:background="@drawable/gradient_layout"
     tools:context=".MenuActivity">
 
-    <TextView
-        android:id="@+id/pick"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:background="@drawable/shape"
-        android:text="Pick your favourite palette"
-        android:gravity="center"
-        android:layout_marginTop="18dp"
-        app:layout_constraintBottom_toTopOf="@id/guideline2"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/buble"
         android:layout_width="match_parent"
@@ -42,7 +29,7 @@
         android:id="@+id/img_palette1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/palette1"
+        android:src="@drawable/profile_picture"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginBottom="420dp"
@@ -56,7 +43,7 @@
         android:id="@+id/img_palette2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/palette7"
+        android:src="@drawable/profile_picture"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginBottom="220dp"
@@ -70,7 +57,7 @@
         android:id="@+id/img_palette3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/palette4"
+        android:src="@drawable/profile_picture"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginBottom="20dp"
@@ -84,7 +71,7 @@
         android:id="@+id/img_palette4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/palette6"
+        android:src="@drawable/profile_picture"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="180dp"
@@ -98,7 +85,7 @@
         android:id="@+id/img_palette5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/palette8"
+        android:src="@drawable/profile_picture"
         android:layout_marginRight="300dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="380dp"
@@ -187,7 +174,7 @@
         android:textSize="12dp"
         android:textColor="#ffffff"
         android:background="@drawable/button1"
-        android:onClick="handlepalette1"/>
+        android:onClick="handlePallete1"/>
 
     <Button
         android:id="@+id/bt_palette2"

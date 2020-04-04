@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pc_yasataria">
-
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -11,8 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Palette1Activity"></activity>
-        <activity android:name=".MenuActivity" />
+        <activity android:name=".Pallete2Activity"></activity>
+        <activity android:name=".Pallete1Activity"></activity>
+        <activity android:name=".MenuActivity"></activity>
         <activity android:name=".DetailActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
