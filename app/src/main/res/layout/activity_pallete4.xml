@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg_palette"
     tools:context=".Pallete4Activity">
 
     <ImageView
@@ -23,8 +23,8 @@
         android:id="@+id/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pallete 4"
-
+        android:text="Palette 4"
+        android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:textStyle="bold"
         android:layout_marginTop="40dp"
@@ -34,7 +34,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_width="0dp"
+        android:layout_width="320dp"
         android:layout_height="0dp"
         android:layout_marginTop="60dp"
         app:layout_constraintBottom_toBottomOf="parent"

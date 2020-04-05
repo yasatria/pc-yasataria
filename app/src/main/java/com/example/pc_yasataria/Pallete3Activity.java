@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.WindowManager;
 
 import com.example.pc_yasataria.adapter.DetailAdapter;
 import com.example.pc_yasataria.model.ItemsModel;
@@ -17,6 +18,7 @@ public class Pallete3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_pallete3);
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
